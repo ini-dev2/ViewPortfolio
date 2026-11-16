@@ -27,8 +27,8 @@ A graph-based, data-driven state machine for Unity. Build state graphs visually 
 - Generic `StateMachine<T>` core with `IState<T>` (enter/exit events)
 - Editor validation for duplicate IDs, unreachable nodes, dangling references
 **Links**
-- Repository: [`https://github.com/ini-dev2/UniStateMachine`](https://github.com/ini-dev2/UniStateMachine)
-- Documentation: [README →](https://github.com/ini-dev2/UniStateMachine#readme)
+- Repository: [`https://github.com/ini-dev2/UniStateMachine`]([https://github.com/ini-dev2/UniStateMachine](https://github.com/ini-dev2/Tools/tree/main/Assets/Plugins/_StateMachine))
+- Documentation: [README →]([https://github.com/ini-dev2/UniStateMachine#readme](https://github.com/ini-dev2/Tools/blob/main/Assets/Plugins/_StateMachine/Documentation.md))
 ---
 ## RestBuilder
 A lightweight, allocation-friendly REST client for Unity built on **UnityWebRequest** + **UniTask**. Fluent request builder, typed `Result<T>`, cancellation, retries with backoff, JSON serialization, interceptors, and byte/file downloads with progress.
