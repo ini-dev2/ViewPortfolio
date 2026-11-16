@@ -16,7 +16,7 @@ A lightweight wrapper over **Unity.WebRTC** with a Fluent API, UniTask support, 
 - Abstract `ISignaling` for WebSocket, HTTP, SignalR
 - Optional Newtonsoft.Json attributes via the `Newtonsoft` define
 **Links**
-- Repository: [`https://github.com/ini-dev2/WebRTCWrapper`](https://github.com/ini-dev2/WebRTCWrapper)
+- Repository: [`REPO`](https://github.com/ini-dev2/WebRTCWrapper)
 - Documentation: [README →](https://github.com/ini-dev2/WebRTCWrapper#readme)
 ---
 ## UniStateMachine
@@ -80,7 +80,7 @@ An editor toolkit for building, packing, and uploading Unity **tours** (scene + 
 - `TT_CIRunner.Build()` for batchmode CI builds
 - `LayerCollisionConfigEditor` — custom 32×32 collision matrix inspector
 **Links**
-- Repository: [`https://github.com/ini-dev2/TourverseToolkit`](https://github.com/ini-dev2/TourverseToolkit)
+- Repository: [`REPO`](https://github.com/ini-dev2/TourverseToolkit)
 - Documentation: [README →](https://github.com/ini-dev2/TourverseToolkit#readme)
 ---
 
