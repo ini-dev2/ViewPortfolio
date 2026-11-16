@@ -92,18 +92,21 @@ An editor toolkit for building, packing, and uploading Unity **tours** (scene + 
 ## Plugins
 ## AndroidApkInstallerPlugin4Unity
 
-A Unity Editor plugin that installs and launches Android APKs directly from the editor via `adb` — no terminal or Android Studio switching required. Speeds up iteration for Android and Quest/Pico development.
+A lightweight Android plugin for Unity that installs APK files programmatically on Android devices, including Android 8.0+ where the **"Install unknown apps"** permission is required. Handles permission requests, generates content URIs via `FileProvider`, and safely launches the installer intent.
 
 **Highlights**
 
-- Install APKs to a connected device from the Unity menu
-- Launch the installed app with a single click
-- Target-device selection for multi-device setups
-- Editor UI integration (menu / window)
+- Supports Android 6.0 (API 23) and above
+- Automatically requests `REQUEST_INSTALL_PACKAGES` on Android 8.0+
+- Uses `FileProvider` to avoid `FileUriExposedException` on Android 7.0+
+- Clean C# API (`installApk(path)`) callable from any `MonoBehaviour`
+- No external dependencies
+- Ideal for self-updating apps, AAB splits, and expansion files
 
 **Links**
 
 - Repository: [`REPO`](https://github.com/ini-dev2/AndroidApkInstallerPlugin4Unity)
+- Sample project: [UnityAndroidApkInstallerPluginSample](https://github.com/ini-dev2/UnityAndroidApkInstallerPluginSample)
 - Documentation: [README →](https://github.com/ini-dev2/AndroidApkInstallerPlugin4Unity#readme)
 
 ---
