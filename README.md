@@ -123,4 +123,19 @@ A lightweight Android plugin for Unity that installs APK files programmatically 
 # Effects
 
 ## Vertical World Dissolve Shader URP
-https://www.youtube.com/watch?v=TJtncmxietY
+
+A vertical world-space dissolve shader for **Universal Render Pipeline (URP)**. Objects dissolve along a vertical axis in world space, producing a clean "rising" or "falling" fade effect that works consistently across multiple objects without per-object UV alignment.
+
+**Highlights**
+
+- World-space vertical dissolve direction (Y axis)
+- Works with URP Lit / Unlit materials
+- Adjustable dissolve height, edge softness, and noise
+- Consistent result across multiple objects in a scene
+- Suitable for teleport effects, level transitions, spawn/despawn, and VFX overlays
+
+**Links**
+
+- Video demo: [YouTube](https://www.youtube.com/watch?v=TJtncmxietY)
+
+---
