@@ -53,8 +53,8 @@ A thread-safe, asynchronous wrapper around **SQLCipher** for Unity. All database
 - `IDbLogger`, `IDbConnectionFactory`, `DbWorkerOptions` for customization
 - `DbTestRunner` MonoBehaviour with 8 scenarios for Play Mode testing
 **Links**
-- Repository: [`https://github.com/ini-dev2/SqlCipherWrapper`](https://github.com/ini-dev2/SqlCipherWrapper)
-- Documentation: [README →](https://github.com/ini-dev2/SqlCipherWrapper#readme)
+- Repository: [`REPO`](https://github.com/ini-dev2/Tools/tree/main/Assets/Plugins/_SqlCipherWrapper)
+- Documentation: [README →](https://github.com/ini-dev2/Tools/blob/main/Assets/Plugins/_SqlCipherWrapper/DOCS.md)
 ---
 ## Tickable
 A lightweight, allocation-conscious tick system for Unity. Register any `IUpdateTick` into one of three groups — **every frame**, **fixed tick rate**, or **custom interval** — and drive them from a single `PlayerLoop` hook.
@@ -65,8 +65,8 @@ A lightweight, allocation-conscious tick system for Unity. Register any `IUpdate
 - `HashSet` registration + cached interval groups
 - `PlayHook` / `StopHook` for pausing without unregistering
 **Links**
-- Repository: [`https://github.com/ini-dev2/Tickable`](https://github.com/ini-dev2/Tickable)
-- Documentation: [README →](https://github.com/ini-dev2/Tickable#readme)
+- Repository: [`REPO`](https://github.com/ini-dev2/Tools/tree/main/Assets/Plugins/_Tickable)
+- Documentation: [README →](https://github.com/ini-dev2/Tools/blob/main/Assets/Plugins/_Tickable/DOCS.md)
 ---
 ## TourverseToolkit
 An editor toolkit for building, packing, and uploading Unity **tours** (scene + Addressables + DLL bundles) to a remote backend.
