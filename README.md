@@ -1,8 +1,8 @@
 # ViewPortfolio
 
-- [[#Tools And Utilities]]
-- [[#Plugins]]
-- [[#Effects]]
+- [Tools And Utilities](#tools-and-utilities)
+- [Plugins](#plugins)
+- [Effects](#effects)
 
 
 
