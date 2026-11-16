@@ -121,3 +121,6 @@ A lightweight Android plugin for Unity that installs APK files programmatically 
 
 
 # Effects
+
+## Vertical World Dissolve Shader URP
+https://www.youtube.com/watch?v=TJtncmxietY
