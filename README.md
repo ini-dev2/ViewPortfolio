@@ -137,5 +137,4 @@ A vertical world-space dissolve shader for **Universal Render Pipeline (URP)**. 
 **Links**
 
 - Video demo: [YouTube](https://www.youtube.com/watch?v=TJtncmxietY)
-[Video](Media/Videos/UNITY __ SHADER __ SHADER_GRAPH _ World vertical dissolve shader.mp4)
 ---
