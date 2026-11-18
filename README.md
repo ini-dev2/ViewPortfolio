@@ -138,3 +138,21 @@ A vertical world-space dissolve shader for **Universal Render Pipeline (URP)**. 
 
 - Video demo: [YouTube](https://www.youtube.com/watch?v=TJtncmxietY)
 ---
+
+# Cartoon Water Shader (URP)
+
+A stylized cartoon water shader for the Universal Render Pipeline (URP), built around an animated Voronoi ripple pattern. Concentric ripple cells continuously expand across the surface in UV space, creating a clean, graphic "caustic-like" motion — no textures or UV baking required. Base color and HDR ripple color are blended together by the ripple mask, giving a crisp, toon-friendly look that reads well in flat or stylized lighting.
+
+## Highlights
+
+- Procedural Voronoi ripple pattern — no textures needed
+- Animated over time for continuous, seamless motion
+- Adjustable ripple speed, cell density, and edge slimness
+- HDR ripple color for bloom-friendly glowing highlights
+- Smooth lerp blending between base water color and ripple color
+- Works on any mesh with UV0 — ideal for stylized lakes, pools, fountains, and cartoon environments
+- URP-compatible, lightweight, and easy to art-direct via material properties
+
+## Links
+
+- Video demo: [(YouTube)](https://www.youtube.com/watch?v=ZegFVvzI9ws)
